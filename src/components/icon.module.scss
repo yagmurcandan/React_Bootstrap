@@ -1,0 +1,8 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.icon {
+  @extend .bg-primary;
+  @extend .bg-gradient;
+  width: 64px;
+  height: 64px;
+}
