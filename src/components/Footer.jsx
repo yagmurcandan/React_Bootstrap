@@ -1,9 +1,9 @@
-const Footer =() =>{
-
-    return (
-        
-        <footer className="text-white py-5 bg-dark text-center">Copyright © Start Bootstrap {new Date().getFullYear()}</footer>
-    );
+const Footer = () => {
+  return (
+    <footer className="text-white py-4 small bg-dark text-center">
+      Copyright © Yagmur HC. {new Date().getFullYear()}
+    </footer>
+  );
 };
 
 export default Footer;
